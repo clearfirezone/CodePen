@@ -1,0 +1,88 @@
+.mainBody {
+    grid-row: 3/6;
+    grid-column: 1/13;
+    background-image: radial-gradient(circle farthest-side at 9% -58%, #9e9e9e, #505050, #262626);
+}
+
+.mainTitle {
+    color: #fff;
+    font-size: 33px;
+    grid-row: 3;
+    grid-column: 1/6;
+    margin: 5% 0% 0% 8%;
+    font-family: 'Lato', sans-serif;
+}
+
+.thinText {
+    font-weight: 300;
+}
+
+.boldedText {
+    font-weight: 700;
+}
+
+.handWave {
+    height: 30px;
+    width: 30px;
+}
+
+.subTitle {
+    color: rgb(212, 212, 212);
+    font-size: 28px;
+    grid-row: 4;
+    grid-column: 1/6;
+    margin: 5% 0% 0% 8%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.signUpButton {
+    grid-row: 5;
+    grid-column: 1/3;
+    margin: 10px 0% 20px 70px;
+    padding-top: 8px;
+    font-size: 28px;
+    background-color: #40db42;
+    color: #000;
+    height: 50px;
+    width: 225px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.learnMoreButton {
+    grid-row: 5;
+    grid-column: 3/5;
+    margin: 10px 0% 20px 10px;
+    padding-top: 8px;
+    font-size: 28px;
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    width: 180px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.imageCaption {
+    grid-column: 7/12;
+    grid-row: 3;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.blueText {
+    color: #2eceff;
+}
+
+.codepenExampleSite {
+    grid-column: 7/13;
+    grid-row: 3/6;
+    margin-top: 55px;
+    height: 100%;
+    width: 100%;
+}
